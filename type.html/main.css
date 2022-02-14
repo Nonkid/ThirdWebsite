@@ -1,61 +1,79 @@
 @charset "UTF-8";
-body
+body{
+position:relative;
+}
+body::before
 {
-background-image: url('japan.jpg');
+content:"";
+background: url("images/japan.jpg");
 background-repeat: no-repeat;
 background-attachment: fixed;
 background-size: 100% 100%;
-opacity: 0.5;
+opacity:0.7;
+position:absolute;
 }
 #wrapper{
 width:1000px;
 margin: 0 auto;
-opacity:1;
+position:relative;
 }
 header{
 	width:100%;
 	height: 100px;
+	position:relative;
 }
 
 header h1 {
 	text-align: center;
 	color: red;
+	position:relative;
 }
 nav{
 	width:100%;
 	text-align: center;
+	position:relative;
 }
 
 nav ul{
   list-style-type: none;
   margin: 0;
   padding: 0;
+	position:relative;
 }
 
 nav li{
 	display:inline;
+	position:relative;
 }
 nav a:link {
 color:rgba(104,104,104,.75);
 text-decoration: none;
 margin-right: 20px;
+position:relative;
 
 }
 
 nav a:visited {
-
+position:relative;
 }
 
 nav a:hover {
   color:rgba(104,104,104,1);
+	position:relative;
 }
 
 nav a:active {
   text-decoration: underline;
+	position:relative;
 }
 footer{
 	text-align: center;
 	clear:both;
+	position:fixed;
+	bottom:0;
+	width: 100%;
+  height: 40px;
+
 
 }
 .left{
@@ -63,6 +81,7 @@ footer{
 	float:left;
 	margin-top:30px;
 	margin-bottom: 30px;
+	position:relative;
 
 }
 
@@ -72,4 +91,9 @@ footer{
 	float:right;
 	margin-left: 30px;
 	margin-top:30px;
+	position:relative;
+}
+.clear{
+	overflow: auto;
+	clear:both;
 }
