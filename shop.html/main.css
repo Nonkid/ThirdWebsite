@@ -5,7 +5,7 @@ position:relative;
 body::before
 {
 content:"";
-background: url("images/japan.jpg");
+background: url("images/japan.jpg") no-repeat;
 background-repeat: no-repeat;
 background-attachment: fixed;
 background-size: 100% 100%;
