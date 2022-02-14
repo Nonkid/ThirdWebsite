@@ -93,3 +93,7 @@ footer{
 	margin-top:30px;
 	position:relative;
 }
+.clear{
+	overflow: auto;
+	clear:both;
+}
