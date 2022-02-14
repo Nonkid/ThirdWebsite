@@ -57,6 +57,7 @@ nav a:active {
   text-decoration: underline;
 }
 footer{
+	margin-top:50px;
 	text-align: center;
 	clear:both;
 	bottom:0;
